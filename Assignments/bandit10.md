@@ -8,10 +8,11 @@ Problem Page: [bandit11](https://overthewire.org/wargames/bandit/bandit11.html)
 
 ## List of Commands Used
 
+```
 ls - list files in a directory
 cat - view contain of a file
 base64 - encoding and decoding for base64 encryption
-
+```
 
 ## Walkthrough
 This level asks us to decode a file which has a base64 encryption. It has a simple thought process to use the manual page of base64 `man base64`. The page shows to use -d for decoding an encoded data `base 64 -d file_name.txt`.
