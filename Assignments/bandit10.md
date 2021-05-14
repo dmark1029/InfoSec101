@@ -21,6 +21,7 @@ This level asks us to decode a file which has a base64 encryption. It has a simp
 
 ## Bash/Python script to automate the process
 ```
+#!/bin/bash
 sshpass -p truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk ssh bandit10@bandit.labs.overthewire.org -p 2220
 cat data.txt
 base64 -d data.txt
