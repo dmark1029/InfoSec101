@@ -8,7 +8,7 @@ Challenge Page: [Get aHEAD](http://mercury.picoctf.net:28916/)
 To gather some information let's see the HTML source code by using 
 `curl http://mercury.picoctf.net:28916/`.
 HTML source code would look like :
-```
+```html
 <!doctype html>
 <html>
 <head>
